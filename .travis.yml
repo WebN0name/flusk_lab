@@ -8,5 +8,5 @@ install:
   - pip3 install gunicorn 
   
 script:   
-  - cd flaskapp   
+  - cd lab1   
   - ./st.sh 
