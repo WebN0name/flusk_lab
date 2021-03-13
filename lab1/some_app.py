@@ -1,5 +1,7 @@
 from flask import Flask
-app = Flask(__name__) 
+app = Flask(__name__)
+
+print("123443")
 
 #декоратор для вывода страницы по умолчанию 
 @app.route("/") 
